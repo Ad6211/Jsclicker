@@ -1,5 +1,9 @@
-clicks=0
+let clicks = Number(localStorage.getItem("clicks")) || 0;
+
+document.getElementById("compteur").textContent = clicks;
+
 function clickbtn() {
-    clicks += 1
-    document.getElementById("compteur").textContent = clicks
+    clicks++;
+    document.getElementById("compteur").textContent = clicks;
+    localStorage.setItem("clicks", clicks);
 }
