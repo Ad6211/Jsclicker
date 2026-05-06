@@ -7,7 +7,8 @@ function clickbtn() {
     document.getElementById("compteur").textContent = clicks;
     localStorage.setItem("clicks", clicks);
 }
-function reset() (
+function reset() {
+    clicks = 0;
     localStorage.setItem("clicks", 0);
-    document.getElementById("compteur").textContent = 0;
-)
+    document.getElementById("compteur").textContent = clicks;
+}
