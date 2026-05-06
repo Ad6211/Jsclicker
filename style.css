@@ -1,14 +1,25 @@
 body {
     background-color: aquamarine;
     margin: 0;
-    height: 100vh;
-    align-items: center;
-    text-align: center;
 
-    color: rebeccapurple;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start; /* 👈 en haut */
+    align-items: center;         /* 👈 centré horizontalement */
+
+    padding-top: 20px; /* 👈 petit espace en haut */
+
     font-size: 30px;
     font-weight: bold;
+    color: rebeccapurple;
 
     -webkit-text-size-adjust: 100%;
 }
-button {align-items:center; text-align: center;}
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
