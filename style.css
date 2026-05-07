@@ -27,8 +27,4 @@ button img {height: 100px; width: 100px;}
 #footer-links {
     position: fixed;
     bottom: 15px;
-    left: 15px;
-    color: white;
-
-    font-family: Arial;
 }
