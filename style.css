@@ -24,7 +24,7 @@ button {
     cursor: pointer;
 }
 img {height: 100px; width: 100px;}
-footer {
+#footer-links {
     position: fixed;
     bottom: 15px;
     right: 15px;
