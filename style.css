@@ -24,3 +24,7 @@ button {
     cursor: pointer;
 }
 img {height: 100px; width: 100px;}
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
