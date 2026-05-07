@@ -25,6 +25,14 @@ button {
 }
 img {height: 100px; width: 100px;}
 footer {
-    display: flex;
-    justify-content: flex-end;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+
+    background: #222;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+    font-family: Arial;
 }
